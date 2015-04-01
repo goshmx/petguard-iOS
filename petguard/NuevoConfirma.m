@@ -9,7 +9,6 @@
 #import "NuevoConfirma.h"
 #import <QuartzCore/QuartzCore.h>
 
-UIAlertView *alert;
 
 @interface NuevoConfirma ()
 
@@ -54,6 +53,7 @@ UIAlertView *alert;
 }
 
 - (IBAction)actionInsertar:(id)sender {
+    NSLog(@"%@", registro);
     [self performSegueWithIdentifier:@"sagaConfirmaMapa" sender:self];
 }
 
@@ -166,6 +166,7 @@ UIAlertView *alert;
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
     
     if([text isEqualToString:@"\n"]) {
+        [registro setObject: self.inputHistoria.text forKey:@"historia"];
         [textView resignFirstResponder];
         return NO;
     }

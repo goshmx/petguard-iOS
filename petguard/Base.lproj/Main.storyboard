@@ -1046,10 +1046,6 @@
                                     <action selector="actionRegresar:" destination="7KU-bP-f4A" eventType="touchUpInside" id="jES-h8-WbD"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IRp-YH-zXR">
-                                <rect key="frame" x="0.0" y="121" width="320" height="390"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3y-hG-0OI">
                                 <rect key="frame" x="0.0" y="511" width="320" height="57"/>
                                 <color key="backgroundColor" red="0.14901960784313725" green="0.35294117647058826" blue="0.83529411764705885" alpha="1" colorSpace="calibratedRGB"/>
@@ -1061,12 +1057,33 @@
                                     <action selector="actionRegistro:" destination="7KU-bP-f4A" eventType="touchUpInside" id="e00-5r-uiG"/>
                                 </connections>
                             </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cx8-iX-5BN">
+                                <rect key="frame" x="0.0" y="153" width="320" height="358"/>
+                            </mapView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocA-Lk-JwW">
+                                <rect key="frame" x="6" y="162" width="92" height="30"/>
+                                <color key="backgroundColor" red="0.19215686274509805" green="0.45098039215686275" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Mi ubicación">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="miUbicacion:" destination="7KU-bP-f4A" eventType="touchUpInside" id="M1I-cC-kjC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTP-yY-ekQ">
+                                <rect key="frame" x="6" y="79" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="inputMapa" destination="IRp-YH-zXR" id="gih-oJ-Kra"/>
+                        <outlet property="mapKit" destination="cx8-iX-5BN" id="wme-dB-MJ5"/>
                         <segue destination="P45-Gx-ozj" kind="presentation" identifier="sagaMapaConfirma" modalTransitionStyle="crossDissolve" id="UIf-F4-nre"/>
                         <segue destination="zJf-Uu-kPu" kind="presentation" identifier="sagaMapaListado" modalTransitionStyle="coverVertical" id="94E-u0-q7E"/>
                     </connections>
@@ -1094,11 +1111,11 @@
         <image name="volver-btn.png" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="94E-u0-q7E"/>
-        <segue reference="UIf-F4-nre"/>
+        <segue reference="nup-e7-n9V"/>
         <segue reference="xZq-To-KvB"/>
+        <segue reference="pn9-B5-dyp"/>
+        <segue reference="cCG-HR-kdt"/>
         <segue reference="dJR-lP-ZDH"/>
         <segue reference="hv5-TM-oTw"/>
-        <segue reference="cCG-HR-kdt"/>
     </inferredMetricsTieBreakers>
 </document>

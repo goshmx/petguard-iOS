@@ -8,6 +8,9 @@
 
 #import "NuevoBasica.h"
 
+NSString *idFB;
+NSString *nombreFB;
+
 @interface NuevoBasica ()
 
 @end
@@ -23,6 +26,17 @@
     self.inputRaza.delegate = self;
     self.inputTamano.delegate = self;
     self.inputColor.delegate = self;
+    
+    if ([FBSDKAccessToken currentAccessToken]) {
+        [[[FBSDKGraphRequest alloc] initWithGraphPath:@"me" parameters:nil]
+         startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
+             if (!error) {
+                 NSLog(@"fetched user:%@", result);
+                 idFB = [result valueForKey:@"id"];
+                 nombreFB = [NSString stringWithFormat:@"%@ %@", [result valueForKey:@"first_name"], [result valueForKey:@"last_name"]];
+             }
+         }];
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,14 +58,35 @@
     [self performSegueWithIdentifier:@"sagaBasicoListado" sender:self];
 }
 
-- (IBAction)actionSiguiente:(id)sender {    
-    [registro setObject: self.inputNombre.text forKey:@"nombre"];
-    [registro setObject: self.inputTipo.text forKey:@"tipo"];
-    [registro setObject: self.inputEdad.text forKey:@"edad"];
-    [registro setObject: self.inputRaza.text forKey:@"raza"];
-    [registro setObject: self.inputTamano.text forKey:@"tamano"];
-    [registro setObject: self.inputColor.text forKey:@"color"];
-    [self performSegueWithIdentifier:@"sagaBasicaConfirma" sender:self];
+- (IBAction)actionSiguiente:(id)sender {
+    if((self.inputNombre.text.length == 0) ||
+       (self.inputTipo.text.length == 0) ||
+       (self.inputEdad.text.length == 0) ||
+       (self.inputRaza.text.length == 0) ||
+       (self.inputTamano.text.length == 0) ||
+       (self.inputColor.text.length == 0)
+       ){
+        alert = [[UIAlertView alloc] initWithTitle:@"Faltan campos por llenar"
+                                           message:@"Registre todos los campos"
+                                          delegate:self
+                                 cancelButtonTitle:@"OK"
+                                 otherButtonTitles: nil];
+        [alert show];
+    }else{
+        [registro setObject: idFB  forKey:@"id_facebook"];
+        [registro setObject: nombreFB  forKey:@"nombre_facebook"];
+        [registro setObject: self.inputNombre.text forKey:@"nombre"];
+        [registro setObject: self.inputTipo.text forKey:@"tipo"];
+        [registro setObject: self.inputEdad.text forKey:@"edad"];
+        [registro setObject: self.inputRaza.text forKey:@"raza"];
+        [registro setObject: self.inputTamano.text forKey:@"tamano"];
+        [registro setObject: self.inputColor.text forKey:@"color"];
+        [registro setObject: @"" forKey:@"foto"];
+        [registro setObject: @"" forKey:@"historia"];
+        [registro setObject: @"" forKey:@"latitud"];
+        [registro setObject: @"" forKey:@"longitud"];
+        [self performSegueWithIdentifier:@"sagaBasicaConfirma" sender:self];
+    }
 }
 
 

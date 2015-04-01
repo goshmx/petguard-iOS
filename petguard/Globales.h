@@ -13,3 +13,4 @@
 #endif
 
 NSMutableDictionary *registro;
+UIAlertView *alert;

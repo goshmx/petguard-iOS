@@ -72,6 +72,7 @@
 		8FCC4D541ACBE7C90079743A /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCC4D531ACBE7C90079743A /* libicucore.dylib */; };
 		8FCC4D561ACBE7DE0079743A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCC4D551ACBE7DE0079743A /* OpenGLES.framework */; };
 		8FCC4D591ACBE9240079743A /* NuevoMapa.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCC4D581ACBE9240079743A /* NuevoMapa.m */; };
+		8FCC4D5B1ACBF8FF0079743A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCC4D5A1ACBF8FF0079743A /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,6 +167,7 @@
 		8FCC4D551ACBE7DE0079743A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		8FCC4D571ACBE9240079743A /* NuevoMapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuevoMapa.h; sourceTree = "<group>"; };
 		8FCC4D581ACBE9240079743A /* NuevoMapa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuevoMapa.m; sourceTree = "<group>"; };
+		8FCC4D5A1ACBF8FF0079743A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FCC4D5B1ACBF8FF0079743A /* MapKit.framework in Frameworks */,
 				8F34BAA51ACA5B2300129B5A /* SystemConfiguration.framework in Frameworks */,
 				8FCC4D561ACBE7DE0079743A /* OpenGLES.framework in Frameworks */,
 				8F34BAA71ACA5B2E00129B5A /* libz.dylib in Frameworks */,
@@ -293,6 +296,7 @@
 		8F544AB41AB040D700835A42 = {
 			isa = PBXGroup;
 			children = (
+				8FCC4D5A1ACBF8FF0079743A /* MapKit.framework */,
 				8F544ABF1AB040D700835A42 /* petguard */,
 				8F544AD91AB040D700835A42 /* petguardTests */,
 				8F544ABE1AB040D700835A42 /* Products */,
@@ -600,6 +604,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -634,6 +639,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

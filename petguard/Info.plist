@@ -38,6 +38,10 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location of pets</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Location of pets</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>

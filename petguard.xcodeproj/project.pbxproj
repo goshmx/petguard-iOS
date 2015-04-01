@@ -56,6 +56,22 @@
 		8FB20FCC1AC6B03C00728DED /* logo-petguard.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB20FCB1AC6B03C00728DED /* logo-petguard.png */; };
 		8FB20FCE1AC6B0AA00728DED /* bg-inicio2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB20FCD1AC6B0AA00728DED /* bg-inicio2.png */; };
 		8FB20FD01AC6B0F300728DED /* fb-btn-connect.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB20FCF1AC6B0F300728DED /* fb-btn-connect.png */; };
+		8FCC4D371ACBA5DF0079743A /* NuevoBasica.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCC4D361ACBA5DF0079743A /* NuevoBasica.m */; };
+		8FCC4D3A1ACBA61B0079743A /* NuevoConfirma.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCC4D391ACBA61B0079743A /* NuevoConfirma.m */; };
+		8FCC4D3C1ACBA77F0079743A /* volver-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FCC4D3B1ACBA77F0079743A /* volver-btn.png */; };
+		8FCC4D3E1ACBB5D70079743A /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FCC4D3D1ACBB5D70079743A /* camera.png */; };
+		8FCC4D401ACBB6C50079743A /* camera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FCC4D3F1ACBB6C50079743A /* camera-icon.png */; };
+		8FCC4D451ACBE7370079743A /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCC4D431ACBE7370079743A /* GoogleMaps.framework */; };
+		8FCC4D461ACBE7370079743A /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8FCC4D441ACBE7370079743A /* GoogleMaps.bundle */; };
+		8FCC4D481ACBE7690079743A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCC4D471ACBE7690079743A /* AVFoundation.framework */; };
+		8FCC4D4A1ACBE7790079743A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCC4D491ACBE7790079743A /* CoreData.framework */; };
+		8FCC4D4C1ACBE7910079743A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCC4D4B1ACBE7910079743A /* CoreText.framework */; };
+		8FCC4D4E1ACBE7A30079743A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCC4D4D1ACBE7A30079743A /* GLKit.framework */; };
+		8FCC4D501ACBE7AD0079743A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCC4D4F1ACBE7AD0079743A /* ImageIO.framework */; };
+		8FCC4D521ACBE7BC0079743A /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCC4D511ACBE7BC0079743A /* libc++.dylib */; };
+		8FCC4D541ACBE7C90079743A /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCC4D531ACBE7C90079743A /* libicucore.dylib */; };
+		8FCC4D561ACBE7DE0079743A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCC4D551ACBE7DE0079743A /* OpenGLES.framework */; };
+		8FCC4D591ACBE9240079743A /* NuevoMapa.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCC4D581ACBE9240079743A /* NuevoMapa.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +146,26 @@
 		8FB20FCB1AC6B03C00728DED /* logo-petguard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-petguard.png"; sourceTree = "<group>"; };
 		8FB20FCD1AC6B0AA00728DED /* bg-inicio2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-inicio2.png"; sourceTree = "<group>"; };
 		8FB20FCF1AC6B0F300728DED /* fb-btn-connect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fb-btn-connect.png"; sourceTree = "<group>"; };
+		8FCC4D351ACBA5DF0079743A /* NuevoBasica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NuevoBasica.h; path = ../NuevoBasica.h; sourceTree = "<group>"; };
+		8FCC4D361ACBA5DF0079743A /* NuevoBasica.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NuevoBasica.m; path = ../NuevoBasica.m; sourceTree = "<group>"; };
+		8FCC4D381ACBA61B0079743A /* NuevoConfirma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuevoConfirma.h; sourceTree = "<group>"; };
+		8FCC4D391ACBA61B0079743A /* NuevoConfirma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuevoConfirma.m; sourceTree = "<group>"; };
+		8FCC4D3B1ACBA77F0079743A /* volver-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "volver-btn.png"; sourceTree = "<group>"; };
+		8FCC4D3D1ACBB5D70079743A /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		8FCC4D3F1ACBB6C50079743A /* camera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-icon.png"; sourceTree = "<group>"; };
+		8FCC4D411ACBBDE10079743A /* Globales.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globales.h; sourceTree = "<group>"; };
+		8FCC4D431ACBE7370079743A /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		8FCC4D441ACBE7370079743A /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		8FCC4D471ACBE7690079743A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8FCC4D491ACBE7790079743A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8FCC4D4B1ACBE7910079743A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		8FCC4D4D1ACBE7A30079743A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		8FCC4D4F1ACBE7AD0079743A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		8FCC4D511ACBE7BC0079743A /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		8FCC4D531ACBE7C90079743A /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		8FCC4D551ACBE7DE0079743A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8FCC4D571ACBE9240079743A /* NuevoMapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuevoMapa.h; sourceTree = "<group>"; };
+		8FCC4D581ACBE9240079743A /* NuevoMapa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuevoMapa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,14 +173,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F34BAA91ACA5B3800129B5A /* libsqlite3.dylib in Frameworks */,
-				8F34BAA71ACA5B2E00129B5A /* libz.dylib in Frameworks */,
 				8F34BAA51ACA5B2300129B5A /* SystemConfiguration.framework in Frameworks */,
+				8FCC4D561ACBE7DE0079743A /* OpenGLES.framework in Frameworks */,
+				8F34BAA71ACA5B2E00129B5A /* libz.dylib in Frameworks */,
+				8FCC4D541ACBE7C90079743A /* libicucore.dylib in Frameworks */,
+				8FCC4D521ACBE7BC0079743A /* libc++.dylib in Frameworks */,
+				8FCC4D501ACBE7AD0079743A /* ImageIO.framework in Frameworks */,
+				8FCC4D4E1ACBE7A30079743A /* GLKit.framework in Frameworks */,
+				8FCC4D4C1ACBE7910079743A /* CoreText.framework in Frameworks */,
+				8F34BA9B1ACA5AF900129B5A /* CoreLocation.framework in Frameworks */,
+				8FCC4D4A1ACBE7790079743A /* CoreData.framework in Frameworks */,
+				8FCC4D481ACBE7690079743A /* AVFoundation.framework in Frameworks */,
+				8F34BAA91ACA5B3800129B5A /* libsqlite3.dylib in Frameworks */,
 				8F34BAA31ACA5B1700129B5A /* StoreKit.framework in Frameworks */,
 				8F34BAA11ACA5B1200129B5A /* Security.framework in Frameworks */,
 				8F34BA9F1ACA5B0A00129B5A /* QuartzCore.framework in Frameworks */,
 				8F34BA9D1ACA5B0300129B5A /* MobileCoreServices.framework in Frameworks */,
-				8F34BA9B1ACA5AF900129B5A /* CoreLocation.framework in Frameworks */,
 				8F34BA991ACA5AF100129B5A /* CoreGraphics.framework in Frameworks */,
 				8F34BA971ACA5AE800129B5A /* CFNetwork.framework in Frameworks */,
 				8F34BA951ACA5ADE00129B5A /* AudioToolbox.framework in Frameworks */,
@@ -152,6 +196,7 @@
 				8F34BA911ACA5AA000129B5A /* ParseFacebookUtils.framework in Frameworks */,
 				8F0A161B1AC9200C004EB323 /* FBSDKLoginKit.framework in Frameworks */,
 				8F34BA921ACA5AA000129B5A /* ParseFacebookUtilsV4.framework in Frameworks */,
+				8FCC4D451ACBE7370079743A /* GoogleMaps.framework in Frameworks */,
 				8F34BA901ACA5AA000129B5A /* ParseCrashReporting.framework in Frameworks */,
 				8F0A161A1AC9200C004EB323 /* FBSDKCoreKit.framework in Frameworks */,
 				8F0A161C1AC9200C004EB323 /* FBSDKShareKit.framework in Frameworks */,
@@ -173,6 +218,26 @@
 		8F0A16151AC91FE5004EB323 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8FCC4D551ACBE7DE0079743A /* OpenGLES.framework */,
+				8FCC4D531ACBE7C90079743A /* libicucore.dylib */,
+				8FCC4D511ACBE7BC0079743A /* libc++.dylib */,
+				8FCC4D4F1ACBE7AD0079743A /* ImageIO.framework */,
+				8FCC4D4D1ACBE7A30079743A /* GLKit.framework */,
+				8FCC4D4B1ACBE7910079743A /* CoreText.framework */,
+				8FCC4D491ACBE7790079743A /* CoreData.framework */,
+				8FCC4D471ACBE7690079743A /* AVFoundation.framework */,
+				8F34BAA81ACA5B3800129B5A /* libsqlite3.dylib */,
+				8F34BAA61ACA5B2E00129B5A /* libz.dylib */,
+				8F34BAA41ACA5B2300129B5A /* SystemConfiguration.framework */,
+				8F34BAA21ACA5B1700129B5A /* StoreKit.framework */,
+				8F34BAA01ACA5B1200129B5A /* Security.framework */,
+				8F34BA9E1ACA5B0A00129B5A /* QuartzCore.framework */,
+				8F34BA9C1ACA5B0300129B5A /* MobileCoreServices.framework */,
+				8F34BA9A1ACA5AF900129B5A /* CoreLocation.framework */,
+				8F34BA981ACA5AF100129B5A /* CoreGraphics.framework */,
+				8F34BA961ACA5AE800129B5A /* CFNetwork.framework */,
+				8F34BA941ACA5ADE00129B5A /* AudioToolbox.framework */,
+				8FCC4D421ACBE6E10079743A /* GoogleMaps */,
 				8F34BA871ACA5A8D00129B5A /* Parse */,
 				8F0A16161AC91FEB004EB323 /* Facebook */,
 			);
@@ -192,6 +257,9 @@
 		8F0A161D1AC92680004EB323 /* iconos */ = {
 			isa = PBXGroup;
 			children = (
+				8FCC4D3F1ACBB6C50079743A /* camera-icon.png */,
+				8FCC4D3D1ACBB5D70079743A /* camera.png */,
+				8FCC4D3B1ACBA77F0079743A /* volver-btn.png */,
 				8F0A16341AC9296E004EB323 /* busqueda-white-btn.png */,
 				8F0A16351AC9296E004EB323 /* mas-white-btn.png */,
 				8F0A161E1AC92902004EB323 /* cerrar-btn.png */,
@@ -225,17 +293,6 @@
 		8F544AB41AB040D700835A42 = {
 			isa = PBXGroup;
 			children = (
-				8F34BAA81ACA5B3800129B5A /* libsqlite3.dylib */,
-				8F34BAA61ACA5B2E00129B5A /* libz.dylib */,
-				8F34BAA41ACA5B2300129B5A /* SystemConfiguration.framework */,
-				8F34BAA21ACA5B1700129B5A /* StoreKit.framework */,
-				8F34BAA01ACA5B1200129B5A /* Security.framework */,
-				8F34BA9E1ACA5B0A00129B5A /* QuartzCore.framework */,
-				8F34BA9C1ACA5B0300129B5A /* MobileCoreServices.framework */,
-				8F34BA9A1ACA5AF900129B5A /* CoreLocation.framework */,
-				8F34BA981ACA5AF100129B5A /* CoreGraphics.framework */,
-				8F34BA961ACA5AE800129B5A /* CFNetwork.framework */,
-				8F34BA941ACA5ADE00129B5A /* AudioToolbox.framework */,
 				8F544ABF1AB040D700835A42 /* petguard */,
 				8F544AD91AB040D700835A42 /* petguardTests */,
 				8F544ABE1AB040D700835A42 /* Products */,
@@ -276,6 +333,13 @@
 				8F0A16451AC945E4004EB323 /* Seleccion.m */,
 				8F34BAAA1ACA5F7E00129B5A /* FBMissingSymbols.h */,
 				8F34BAAB1ACA5F7E00129B5A /* FBMissingSymbols.m */,
+				8FCC4D351ACBA5DF0079743A /* NuevoBasica.h */,
+				8FCC4D361ACBA5DF0079743A /* NuevoBasica.m */,
+				8FCC4D381ACBA61B0079743A /* NuevoConfirma.h */,
+				8FCC4D391ACBA61B0079743A /* NuevoConfirma.m */,
+				8FCC4D411ACBBDE10079743A /* Globales.h */,
+				8FCC4D571ACBE9240079743A /* NuevoMapa.h */,
+				8FCC4D581ACBE9240079743A /* NuevoMapa.m */,
 			);
 			path = petguard;
 			sourceTree = "<group>";
@@ -315,6 +379,15 @@
 				8FB20FCB1AC6B03C00728DED /* logo-petguard.png */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		8FCC4D421ACBE6E10079743A /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				8FCC4D431ACBE7370079743A /* GoogleMaps.framework */,
+				8FCC4D441ACBE7370079743A /* GoogleMaps.bundle */,
+			);
+			name = GoogleMaps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,6 +471,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F544ACC1AB040D700835A42 /* Main.storyboard in Resources */,
+				8FCC4D3E1ACBB5D70079743A /* camera.png in Resources */,
+				8FCC4D461ACBE7370079743A /* GoogleMaps.bundle in Resources */,
 				8F0A162C1AC92902004EB323 /* user-btn.png in Resources */,
 				8F0A162D1AC92902004EB323 /* fav-btn.png in Resources */,
 				8F0A16291AC92902004EB323 /* cerrar-btn.png in Resources */,
@@ -405,6 +480,8 @@
 				8F0A16311AC92902004EB323 /* busqueda-btn.png in Resources */,
 				8F0A162B1AC92902004EB323 /* nombre-btn.png in Resources */,
 				8FB20FD01AC6B0F300728DED /* fb-btn-connect.png in Resources */,
+				8FCC4D401ACBB6C50079743A /* camera-icon.png in Resources */,
+				8FCC4D3C1ACBA77F0079743A /* volver-btn.png in Resources */,
 				8F0A16321AC92902004EB323 /* pet-btn.png in Resources */,
 				8F0A16371AC9296E004EB323 /* mas-white-btn.png in Resources */,
 				8FB20FCE1AC6B0AA00728DED /* bg-inicio2.png in Resources */,
@@ -435,13 +512,16 @@
 			files = (
 				8F0A163A1AC936E1004EB323 /* Listado.m in Sources */,
 				8F544AC91AB040D700835A42 /* Home.m in Sources */,
+				8FCC4D591ACBE9240079743A /* NuevoMapa.m in Sources */,
 				8F544AC61AB040D700835A42 /* AppDelegate.m in Sources */,
+				8FCC4D3A1ACBA61B0079743A /* NuevoConfirma.m in Sources */,
 				8F0A16461AC945E4004EB323 /* Seleccion.m in Sources */,
 				8F0A163D1AC93729004EB323 /* Detalle.m in Sources */,
 				8F544AC31AB040D700835A42 /* main.m in Sources */,
 				8F34BAAC1ACA5F7E00129B5A /* FBMissingSymbols.m in Sources */,
 				8F0A16401AC9374C004EB323 /* Perfil.m in Sources */,
 				8F0A16431AC93764004EB323 /* Mensajes.m in Sources */,
+				8FCC4D371ACBA5DF0079743A /* NuevoBasica.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

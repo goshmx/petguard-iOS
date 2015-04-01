@@ -21,6 +21,7 @@
     
     
     [super viewDidLoad];
+    registro = [[NSMutableDictionary alloc] init];
     // Do any additional setup after loading the view.
 }
 
@@ -55,5 +56,9 @@
 - (IBAction)action_perfil:(id)sender {
     [self performSegueWithIdentifier:@"sagaListadoPerfil" sender:self];
 
+}
+
+- (IBAction)action_mas:(id)sender {
+    [self performSegueWithIdentifier:@"sagaListadoBasic" sender:self];
 }
 @end

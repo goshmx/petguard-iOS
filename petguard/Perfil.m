@@ -35,9 +35,6 @@
                  self.imgPerfil.image = [UIImage imageWithData:imageData];
                  self.nombrePerfil.text = [NSString stringWithFormat:@"%@ %@", [result valueForKey:@"first_name"], [result valueForKey:@"last_name"]];
                  self.ubicacionPerfil.text = [result valueForKey:@"email"];
-                 
-                 
-                 
              }
          }];        
     }

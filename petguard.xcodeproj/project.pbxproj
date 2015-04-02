@@ -73,6 +73,14 @@
 		8FCC4D561ACBE7DE0079743A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCC4D551ACBE7DE0079743A /* OpenGLES.framework */; };
 		8FCC4D591ACBE9240079743A /* NuevoMapa.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCC4D581ACBE9240079743A /* NuevoMapa.m */; };
 		8FCC4D5B1ACBF8FF0079743A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FCC4D5A1ACBF8FF0079743A /* MapKit.framework */; };
+		8FDA7B6E1ACD1D5800F88400 /* ListadoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA7B6D1ACD1D5800F88400 /* ListadoCell.m */; };
+		8FDA7B721ACD268900F88400 /* ListadoTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA7B711ACD268900F88400 /* ListadoTable.m */; };
+		8FDA7B751ACDA6FA00F88400 /* FavoritosTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA7B741ACDA6FA00F88400 /* FavoritosTable.m */; };
+		8FDA7B781ACDA71300F88400 /* MensajesTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA7B771ACDA71300F88400 /* MensajesTable.m */; };
+		8FDA7B7B1ACDA72500F88400 /* MiosTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA7B7A1ACDA72500F88400 /* MiosTable.m */; };
+		8FDA7B7E1ACDAA5400F88400 /* MiosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA7B7D1ACDAA5400F88400 /* MiosCell.m */; };
+		8FDA7B811ACDAA6500F88400 /* FavoritosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA7B801ACDAA6500F88400 /* FavoritosCell.m */; };
+		8FDA7B841ACDAA7300F88400 /* MensajesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA7B831ACDAA7300F88400 /* MensajesCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,6 +176,22 @@
 		8FCC4D571ACBE9240079743A /* NuevoMapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuevoMapa.h; sourceTree = "<group>"; };
 		8FCC4D581ACBE9240079743A /* NuevoMapa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuevoMapa.m; sourceTree = "<group>"; };
 		8FCC4D5A1ACBF8FF0079743A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8FDA7B6C1ACD1D5800F88400 /* ListadoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListadoCell.h; sourceTree = "<group>"; };
+		8FDA7B6D1ACD1D5800F88400 /* ListadoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListadoCell.m; sourceTree = "<group>"; };
+		8FDA7B701ACD268900F88400 /* ListadoTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListadoTable.h; sourceTree = "<group>"; };
+		8FDA7B711ACD268900F88400 /* ListadoTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListadoTable.m; sourceTree = "<group>"; };
+		8FDA7B731ACDA6FA00F88400 /* FavoritosTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritosTable.h; sourceTree = "<group>"; };
+		8FDA7B741ACDA6FA00F88400 /* FavoritosTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritosTable.m; sourceTree = "<group>"; };
+		8FDA7B761ACDA71300F88400 /* MensajesTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MensajesTable.h; sourceTree = "<group>"; };
+		8FDA7B771ACDA71300F88400 /* MensajesTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MensajesTable.m; sourceTree = "<group>"; };
+		8FDA7B791ACDA72500F88400 /* MiosTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiosTable.h; sourceTree = "<group>"; };
+		8FDA7B7A1ACDA72500F88400 /* MiosTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiosTable.m; sourceTree = "<group>"; };
+		8FDA7B7C1ACDAA5400F88400 /* MiosCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiosCell.h; sourceTree = "<group>"; };
+		8FDA7B7D1ACDAA5400F88400 /* MiosCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiosCell.m; sourceTree = "<group>"; };
+		8FDA7B7F1ACDAA6500F88400 /* FavoritosCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritosCell.h; sourceTree = "<group>"; };
+		8FDA7B801ACDAA6500F88400 /* FavoritosCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritosCell.m; sourceTree = "<group>"; };
+		8FDA7B821ACDAA7300F88400 /* MensajesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MensajesCell.h; sourceTree = "<group>"; };
+		8FDA7B831ACDAA7300F88400 /* MensajesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MensajesCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -315,6 +339,7 @@
 		8F544ABF1AB040D700835A42 /* petguard */ = {
 			isa = PBXGroup;
 			children = (
+				8FDA7B6F1ACD266E00F88400 /* embebidos */,
 				8F0A16151AC91FE5004EB323 /* Frameworks */,
 				8FB20FC81AC6AFB000728DED /* images */,
 				8F544AC41AB040D700835A42 /* AppDelegate.h */,
@@ -392,6 +417,29 @@
 				8FCC4D441ACBE7370079743A /* GoogleMaps.bundle */,
 			);
 			name = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		8FDA7B6F1ACD266E00F88400 /* embebidos */ = {
+			isa = PBXGroup;
+			children = (
+				8FDA7B6C1ACD1D5800F88400 /* ListadoCell.h */,
+				8FDA7B6D1ACD1D5800F88400 /* ListadoCell.m */,
+				8FDA7B701ACD268900F88400 /* ListadoTable.h */,
+				8FDA7B711ACD268900F88400 /* ListadoTable.m */,
+				8FDA7B731ACDA6FA00F88400 /* FavoritosTable.h */,
+				8FDA7B741ACDA6FA00F88400 /* FavoritosTable.m */,
+				8FDA7B761ACDA71300F88400 /* MensajesTable.h */,
+				8FDA7B771ACDA71300F88400 /* MensajesTable.m */,
+				8FDA7B791ACDA72500F88400 /* MiosTable.h */,
+				8FDA7B7A1ACDA72500F88400 /* MiosTable.m */,
+				8FDA7B7C1ACDAA5400F88400 /* MiosCell.h */,
+				8FDA7B7D1ACDAA5400F88400 /* MiosCell.m */,
+				8FDA7B7F1ACDAA6500F88400 /* FavoritosCell.h */,
+				8FDA7B801ACDAA6500F88400 /* FavoritosCell.m */,
+				8FDA7B821ACDAA7300F88400 /* MensajesCell.h */,
+				8FDA7B831ACDAA7300F88400 /* MensajesCell.m */,
+			);
+			name = embebidos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -517,14 +565,22 @@
 				8F0A163A1AC936E1004EB323 /* Listado.m in Sources */,
 				8F544AC91AB040D700835A42 /* Home.m in Sources */,
 				8FCC4D591ACBE9240079743A /* NuevoMapa.m in Sources */,
+				8FDA7B6E1ACD1D5800F88400 /* ListadoCell.m in Sources */,
 				8F544AC61AB040D700835A42 /* AppDelegate.m in Sources */,
+				8FDA7B721ACD268900F88400 /* ListadoTable.m in Sources */,
 				8FCC4D3A1ACBA61B0079743A /* NuevoConfirma.m in Sources */,
 				8F0A16461AC945E4004EB323 /* Seleccion.m in Sources */,
+				8FDA7B7B1ACDA72500F88400 /* MiosTable.m in Sources */,
+				8FDA7B781ACDA71300F88400 /* MensajesTable.m in Sources */,
 				8F0A163D1AC93729004EB323 /* Detalle.m in Sources */,
+				8FDA7B7E1ACDAA5400F88400 /* MiosCell.m in Sources */,
 				8F544AC31AB040D700835A42 /* main.m in Sources */,
 				8F34BAAC1ACA5F7E00129B5A /* FBMissingSymbols.m in Sources */,
 				8F0A16401AC9374C004EB323 /* Perfil.m in Sources */,
+				8FDA7B841ACDAA7300F88400 /* MensajesCell.m in Sources */,
 				8F0A16431AC93764004EB323 /* Mensajes.m in Sources */,
+				8FDA7B751ACDA6FA00F88400 /* FavoritosTable.m in Sources */,
+				8FDA7B811ACDAA6500F88400 /* FavoritosCell.m in Sources */,
 				8FCC4D371ACBA5DF0079743A /* NuevoBasica.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

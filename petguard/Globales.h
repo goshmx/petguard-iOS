@@ -14,3 +14,5 @@
 
 NSMutableDictionary *registro;
 UIAlertView *alert;
+NSString *regID;
+id facebookRow;

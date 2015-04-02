@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     if ([FBSDKAccessToken currentAccessToken]) {
-        NSLog(@"Estas logueado");
+        [[[FBSDKGraphRequest alloc] initWithGraphPath:@"me" parameters:nil]
+         startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
+             if (!error) {
+                 facebookRow = result;                
+             }
+         }];
     }
     
     

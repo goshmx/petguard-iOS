@@ -89,7 +89,7 @@
     
     cell.mascotaNombre.text = [object objectForKey:@"nombre"];
     cell.mascotaRaza.text = [object objectForKey:@"raza"];
-    cell.mascotaID.text = object.objectId;
+    cell.mascotaID.text = [object objectForKey:@"id_mascota"];
     
     PFFile *theImage = [object objectForKey:@"foto"];
     [theImage getDataInBackgroundWithBlock:^(NSData *data, NSError *error){
@@ -119,7 +119,7 @@
     FavoritosCell *cell=[tableView cellForRowAtIndexPath:indexPath];
     NSLog(@"%@", cell.mascotaID.text);
     regID = cell.mascotaID.text;
-    [self.parentViewController performSegueWithIdentifier:@"sagaListadoDetalle" sender:self];
+    [self.parentViewController performSegueWithIdentifier:@"sagaSeleccionDetalle" sender:self];
     
     
     /*

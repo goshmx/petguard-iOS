@@ -22,5 +22,7 @@
 @property (strong, nonatomic) IBOutlet UITextField *inputTamano;
 @property (strong, nonatomic) IBOutlet UITextField *inputColor;
 
+@property (strong, nonatomic) IBOutlet UIPickerView *pickerbasicoA;
+@property (strong, nonatomic) IBOutlet UIPickerView *pickerBasicoB;
 
 @end

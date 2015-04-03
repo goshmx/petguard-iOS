@@ -56,8 +56,9 @@
 
 - (PFQuery *)queryForTable
 {
+    NSLog(@"%@",facebookRow);
     PFQuery *query = [PFQuery queryWithClassName:@"mascota"];
-    
+    [query whereKey:@"id_facebook" notEqualTo:[facebookRow objectForKey:@"id"]];
     [query orderByDescending:@"createdAt"];
     
     return query;

@@ -115,6 +115,9 @@ id facebook;
 - (IBAction)action_favorito:(id)sender {
     PFObject *testObject = [PFObject objectWithClassName:@"favorito"];
     testObject[@"id_mascota"] = mascotaSelected.objectId;
+    testObject[@"nombre"] = [mascotaSelected valueForKey:@"nombre"];
+    testObject[@"raza"] = [mascotaSelected valueForKey:@"raza"];
+    testObject[@"foto"] = [mascotaSelected valueForKey:@"foto"];
     testObject[@"id_facebook"] = [facebook valueForKey:@"id"];
     if([testObject saveInBackground]){
         //[self performSegueWithIdentifier:@"sagaDetalleListado" sender:self];

@@ -43,6 +43,7 @@
          startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
              if (!error) {
                  NSLog(@"fetched user:%@", result);
+                 facebookRow = result;
                  [self performSegueWithIdentifier:@"sagaHomeListado" sender:self];
              }
          }];        

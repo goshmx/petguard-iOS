@@ -291,6 +291,7 @@
                         <outlet property="detalleResponsable" destination="pXA-6u-JxD" id="WUU-Vv-uUb"/>
                         <outlet property="nombreMasc" destination="vqW-70-Hmi" id="tPk-iB-VBI"/>
                         <segue destination="zJf-Uu-kPu" kind="presentation" identifier="sagaDetalleListado" modalTransitionStyle="coverVertical" id="4jC-6m-dvb"/>
+                        <segue destination="f0I-Vo-TQ4" kind="presentation" identifier="sagaDetalleSeleccion" modalTransitionStyle="coverVertical" id="kxY-w5-rdg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uvv-QH-wXe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -700,7 +701,7 @@
                                 <rect key="frame" x="10" y="258" width="302" height="162"/>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnI-LL-9b6">
-                                <rect key="frame" x="8" y="181" width="299" height="121"/>
+                                <rect key="frame" x="7" y="181" width="299" height="121"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -728,17 +729,6 @@
                                     <action selector="actionCancelar:" destination="BoW-an-pH4" eventType="touchUpInside" id="JNT-On-xEh"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gD0-eR-ezj">
-                                <rect key="frame" x="18" y="213" width="282" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLj-oJ-XLj">
-                                <rect key="frame" x="24" y="192" width="48" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M6D-ff-SlI">
                                 <rect key="frame" x="21" y="435" width="282" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -798,6 +788,17 @@
                                 <rect key="frame" x="93" y="51" width="135" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="0.86030016447368429" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gD0-eR-ezj">
+                                <rect key="frame" x="18" y="212" width="282" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLj-oJ-XLj">
+                                <rect key="frame" x="24" y="191" width="48" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1083,12 +1084,6 @@
                                     <action selector="action_Volver:" destination="P45-Gx-ozj" eventType="touchUpInside" id="jHP-Yt-tQN"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gm-AZ-H0V">
-                                <rect key="frame" x="16" y="91" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zE-W6-17s">
                                 <rect key="frame" x="0.0" y="511" width="320" height="57"/>
                                 <color key="backgroundColor" red="0.19215686269999999" green="0.45098039220000002" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -1121,8 +1116,22 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmG-Ul-bYC">
+                                <rect key="frame" x="0.0" y="75" width="320" height="70"/>
+                                <color key="backgroundColor" red="0.4510930447" green="0.75492650900000002" blue="0.90616319440000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSh-9Z-8YZ">
+                                <rect key="frame" x="5" y="78" width="310" height="66"/>
+                                <string key="text">Para que pueda ser adoptado mas rapidamente, muestra una foto donde se vea de preferencia el cuerpo enter, ademasque sea lo mas honesta y sencilla posible.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QiC-ti-aVs">
-                                <rect key="frame" x="70" y="144" width="180" height="180"/>
+                                <rect key="frame" x="70" y="152" width="180" height="180"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1197,7 +1206,7 @@
                                 </connections>
                             </button>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cx8-iX-5BN">
-                                <rect key="frame" x="0.0" y="153" width="320" height="358"/>
+                                <rect key="frame" x="0.0" y="152" width="320" height="362"/>
                             </mapView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocA-Lk-JwW">
                                 <rect key="frame" x="6" y="162" width="92" height="30"/>
@@ -1211,10 +1220,18 @@
                                     <action selector="miUbicacion:" destination="7KU-bP-f4A" eventType="touchUpInside" id="M1I-cC-kjC"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTP-yY-ekQ">
-                                <rect key="frame" x="6" y="79" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yh0-TR-c2u">
+                                <rect key="frame" x="0.0" y="75" width="320" height="79"/>
+                                <color key="backgroundColor" red="0.4510930447" green="0.75492650900000002" blue="0.90616319440000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7U-Z4-izI">
+                                <rect key="frame" x="4" y="80" width="314" height="66"/>
+                                <string key="text">La ubicacion de la mascota es necesaria, ya que en base a la ubicación podremos mostrar quienes estan disponibles para adoptar en un radio a la redonda. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1251,11 +1268,11 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="kEI-Gr-aCl"/>
-        <segue reference="REY-hl-F5w"/>
-        <segue reference="oc9-HZ-SgI"/>
+        <segue reference="kxY-w5-rdg"/>
         <segue reference="02i-Mo-eEq"/>
+        <segue reference="oc9-HZ-SgI"/>
         <segue reference="pn9-B5-dyp"/>
-        <segue reference="ffe-PY-GuL"/>
+        <segue reference="xZq-To-KvB"/>
         <segue reference="nup-e7-n9V"/>
     </inferredMetricsTieBreakers>
 </document>

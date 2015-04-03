@@ -108,8 +108,15 @@ id facebook;
 }
 
 - (IBAction)action_regresar:(id)sender {
-    [self performSegueWithIdentifier:@"sagaDetalleListado" sender:self];
-
+    if([ruta  isEqual: @"Listado"])
+    {
+        [self performSegueWithIdentifier:@"sagaDetalleListado" sender:self];
+    }
+    if([ruta  isEqual: @"Favoritos"])
+    {
+        [self performSegueWithIdentifier:@"sagaDetalleSeleccion" sender:self];
+    }
+    
 }
 
 - (IBAction)action_favorito:(id)sender {

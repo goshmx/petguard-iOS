@@ -39,6 +39,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.tabla.layer.borderWidth = 0;
+    ruta = @"Favoritos";
     
     
     // Uncomment the following line to preserve selection between presentations.

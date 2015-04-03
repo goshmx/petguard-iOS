@@ -154,10 +154,22 @@
     else if(buttonIndex == 1)
     {
         NSLog(@"Eliminar presionado");
+        [self eliminaMascota];
     }
     else if(buttonIndex == 2){
          NSLog(@"Editar presionado");
     }    
+}
+
+
+
+- (void)eliminaMascota{
+    PFQuery *query = [PFQuery queryWithClassName:@"mascota"];
+    [query getObjectInBackgroundWithId:regID block:^(PFObject *mascota, NSError *error) {
+        if([mascota deleteInBackground]){
+            [self loadObjects];
+        }
+    }];
 }
 
 @end

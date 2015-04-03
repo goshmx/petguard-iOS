@@ -81,6 +81,8 @@
 		8FDA7B7E1ACDAA5400F88400 /* MiosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA7B7D1ACDAA5400F88400 /* MiosCell.m */; };
 		8FDA7B811ACDAA6500F88400 /* FavoritosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA7B801ACDAA6500F88400 /* FavoritosCell.m */; };
 		8FDA7B841ACDAA7300F88400 /* MensajesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA7B831ACDAA7300F88400 /* MensajesCell.m */; };
+		8FDA7B861ACE5CA000F88400 /* hand-holding-paw-web.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FDA7B851ACE5CA000F88400 /* hand-holding-paw-web.jpg */; };
+		8FDA7B881ACE5D0500F88400 /* logosplash.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FDA7B871ACE5D0500F88400 /* logosplash.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +194,8 @@
 		8FDA7B801ACDAA6500F88400 /* FavoritosCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritosCell.m; sourceTree = "<group>"; };
 		8FDA7B821ACDAA7300F88400 /* MensajesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MensajesCell.h; sourceTree = "<group>"; };
 		8FDA7B831ACDAA7300F88400 /* MensajesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MensajesCell.m; sourceTree = "<group>"; };
+		8FDA7B851ACE5CA000F88400 /* hand-holding-paw-web.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hand-holding-paw-web.jpg"; path = "../../../../Downloads/hand-holding-paw-web.jpg"; sourceTree = "<group>"; };
+		8FDA7B871ACE5D0500F88400 /* logosplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logosplash.png; path = "../../../UAG/desarrollo movil/petguard-screens/app/iconos/logosplash.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -402,6 +406,8 @@
 		8FB20FC81AC6AFB000728DED /* images */ = {
 			isa = PBXGroup;
 			children = (
+				8FDA7B871ACE5D0500F88400 /* logosplash.png */,
+				8FDA7B851ACE5CA000F88400 /* hand-holding-paw-web.jpg */,
 				8F0A161D1AC92680004EB323 /* iconos */,
 				8FB20FCF1AC6B0F300728DED /* fb-btn-connect.png */,
 				8FB20FCD1AC6B0AA00728DED /* bg-inicio2.png */,
@@ -530,10 +536,12 @@
 				8F0A16291AC92902004EB323 /* cerrar-btn.png in Resources */,
 				8F0A162E1AC92902004EB323 /* mas-btn.png in Resources */,
 				8F0A16311AC92902004EB323 /* busqueda-btn.png in Resources */,
+				8FDA7B881ACE5D0500F88400 /* logosplash.png in Resources */,
 				8F0A162B1AC92902004EB323 /* nombre-btn.png in Resources */,
 				8FB20FD01AC6B0F300728DED /* fb-btn-connect.png in Resources */,
 				8FCC4D401ACBB6C50079743A /* camera-icon.png in Resources */,
 				8FCC4D3C1ACBA77F0079743A /* volver-btn.png in Resources */,
+				8FDA7B861ACE5CA000F88400 /* hand-holding-paw-web.jpg in Resources */,
 				8F0A16321AC92902004EB323 /* pet-btn.png in Resources */,
 				8F0A16371AC9296E004EB323 /* mas-white-btn.png in Resources */,
 				8FB20FCE1AC6B0AA00728DED /* bg-inicio2.png in Resources */,

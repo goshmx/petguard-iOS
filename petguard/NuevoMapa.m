@@ -12,7 +12,7 @@
 MKPointAnnotation *annotationPoint;
 NSString *latitud = @"";
 NSString *longitud = @"";
-Boolean *activo = NO;
+Boolean activo = NO;
 
 @interface NuevoMapa ()
 

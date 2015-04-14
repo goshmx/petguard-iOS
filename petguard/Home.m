@@ -36,8 +36,6 @@
     [super viewDidAppear:animated];
     NSLog(@"Aparecio");
     
-
-    
     if ([FBSDKAccessToken currentAccessToken]) {
         [[[FBSDKGraphRequest alloc] initWithGraphPath:@"me" parameters:nil]
          startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
@@ -54,7 +52,18 @@
 loginButton:	(FBSDKLoginButton *)loginButton
 didCompleteWithResult:	(FBSDKLoginManagerLoginResult *)result
 error:	(NSError *)error{
-    [self performSegueWithIdentifier:@"sagaHomeListado" sender:self];
+    if ([FBSDKAccessToken currentAccessToken]) {
+        [[[FBSDKGraphRequest alloc] initWithGraphPath:@"me" parameters:nil]
+         startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
+             if (!error) {
+                 NSLog(@"fetched user:%@", result);
+                 facebookRow = result;
+                 [self performSegueWithIdentifier:@"sagaHomeListado" sender:self];
+             }
+         }];
+    }
+    
+   
 }
 
 

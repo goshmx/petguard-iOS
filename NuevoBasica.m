@@ -36,8 +36,8 @@ NSArray *pickerDataB;
     self.pickerbasicoA.dataSource = self;
     self.pickerbasicoA.delegate = self;
     
-    self.pickerBasicoB.dataSource = self;
-    self.pickerBasicoB.delegate = self;
+    //self.pickerBasicoB.dataSource = self;
+    //self.pickerBasicoB.delegate = self;
     
     self.inputNombre.delegate = self;
     self.inputTipo.delegate = self;
@@ -161,14 +161,14 @@ NSArray *pickerDataB;
 
 //Implementando controles de datapicker
 
-- (int)numberOfComponentsInPickerView:(UIPickerView *)pickerView
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
 {
     return 4;
 }
 
-- (int)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
 {
-    NSLog(@"%d",component);
+   
     NSInteger numberOfRows;
     if(component == 0)
     {
@@ -185,7 +185,7 @@ NSArray *pickerDataB;
     else if(component == 3){
         numberOfRows = 5;
     }
-    return numberOfRows;
+    return (int)numberOfRows;
 }
 
 - (NSString*)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component

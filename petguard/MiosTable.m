@@ -116,7 +116,7 @@
     NSLog(@"Puchado");
     
     
-    MiosCell *cell=[tableView cellForRowAtIndexPath:indexPath];
+    MiosCell *cell=(MiosCell*)[tableView cellForRowAtIndexPath:indexPath];
     NSLog(@"%@", cell.regID.text);
     regID = cell.regID.text;
     

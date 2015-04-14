@@ -11,7 +11,7 @@
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import "Globales.h"
 
-@interface NuevoBasica : UIViewController<UINavigationControllerDelegate, UITextViewDelegate>
+@interface NuevoBasica : UIViewController<UINavigationControllerDelegate,UITextFieldDelegate, UITextViewDelegate,UIPickerViewDataSource, UIPickerViewDelegate>
 - (IBAction)actionCancelar:(id)sender;
 - (IBAction)actionSiguiente:(id)sender;
 
@@ -23,6 +23,6 @@
 @property (strong, nonatomic) IBOutlet UITextField *inputColor;
 
 @property (strong, nonatomic) IBOutlet UIPickerView *pickerbasicoA;
-@property (strong, nonatomic) IBOutlet UIPickerView *pickerBasicoB;
+//@property (strong, nonatomic) IBOutlet UIPickerView *pickerBasicoB;
 
 @end

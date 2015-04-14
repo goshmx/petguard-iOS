@@ -117,7 +117,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"Puchado");
     
-    FavoritosCell *cell=[tableView cellForRowAtIndexPath:indexPath];
+    FavoritosCell *cell=(FavoritosCell*)[tableView cellForRowAtIndexPath:indexPath];
     NSLog(@"%@", cell.mascotaID.text);
     regID = cell.mascotaID.text;
     [self.parentViewController performSegueWithIdentifier:@"sagaSeleccionDetalle" sender:self];

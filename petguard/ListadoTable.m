@@ -118,7 +118,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"Puchado");
     
-    ListadoCell *cell=[tableView cellForRowAtIndexPath:indexPath];
+    ListadoCell *cell=(ListadoCell*)[tableView cellForRowAtIndexPath:indexPath];
     NSLog(@"%@", cell.Registro.text);
     regID = cell.Registro.text;
     [self.parentViewController performSegueWithIdentifier:@"sagaListadoDetalle" sender:self];

@@ -120,7 +120,7 @@
     NSLog(@"Puchado");
     
     
-    MensajesCell *cell=[tableView cellForRowAtIndexPath:indexPath];
+    MensajesCell *cell=(MensajesCell*)[tableView cellForRowAtIndexPath:indexPath];
     NSLog(@"%@", cell.fbID.text);
     regID = cell.fbID.text;
     NSString *profileURL = [NSString stringWithFormat:@"fb://profile/%@",regID];
